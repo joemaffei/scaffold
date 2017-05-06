@@ -1,0 +1,23 @@
+{
+  "name": "scaffold",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass example/scss --output example/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joemaffei/scaffold.git"
+  },
+  "author": "Joe Maffei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joemaffei/scaffold/issues"
+  },
+  "homepage": "https://github.com/joemaffei/scaffold#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.2",
+    "nodemon": "^1.11.0"
+  }
+}

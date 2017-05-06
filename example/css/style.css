@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif; }
+
+.modal {
+  width: 400px;
+  border: 1px solid #ccc;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); }
+  .modal .modal-header {
+    padding-left: .5em;
+    line-height: 2;
+    font-weight: 500;
+    color: #01579b;
+    background: #eee;
+    border-bottom: 1px solid #ddd; }
+  .modal .modal-content {
+    font-family: Consolas;
+    padding: 1.5em 1em;
+    text-align: center; }
+  .modal .modal-buttons {
+    padding: 0 1em 1em 1em;
+    text-align: right; }
+    .modal .modal-buttons button {
+      padding: .5em .75em;
+      background: transparent;
+      color: #666;
+      border: 1px solid #ccc;
+      border-radius: 3px; }
+      .modal .modal-buttons button:hover {
+        cursor: pointer; }
+      .modal .modal-buttons button.accept-button {
+        color: #fff;
+        background: #01579b;
+        border-color: #01579b; }
+      .modal .modal-buttons button + button {
+        margin-left: .5em; }
